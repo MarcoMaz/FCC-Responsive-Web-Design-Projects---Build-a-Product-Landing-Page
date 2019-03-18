@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto+Slab");
+body {
+  background-color: #dfe1d4;
+  font-family: "Libre Franklin";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto Slab";
+  font-size: 3vh;
+  justify-content: flex-end;
+}
+#header #header-img {
+  margin: 20px auto 0 20px;
+}
+#header #nav-bar {
+  position: fixed;
+}
+#header #nav-bar ul {
+  display: flex;
+  list-style-type: none;
+}
+#header #nav-bar ul li:hover {
+  border-bottom: 6px dashed black;
+}
+#header #nav-bar ul li a {
+  color: black;
+  text-decoration: none;
+}
+#header .nav-link {
+  margin: 0 15px;
+}
+
+main {
+  text-align: center;
+}
+main #video {
+  margin: 50px auto;
+}
+main #email {
+  font-family: "Libre Franklin";
+  font-size: 2vh;
+  text-align: center;
+  width: 40%;
+}
+main #submit {
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 2vh;
+}
+main h3 {
+  font-size: 5vh;
+}
+main p {
+  font-size: 4vh;
+}
+main #price {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #price h3 {
+  width: 100%;
+}
+main #price .price-table {
+  border-right: 10px dashed black;
+  border-bottom: 10px dashed black;
+  font-size: 4vh;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 28%;
+}
+main #price .price-table h4 {
+  background-color: #989D7D;
+  margin-top: 0;
+  padding: 30px 0;
+}
+main #contact {
+  font-size: 3vh;
+  margin: 50px 0;
+}
+main #contact a {
+  color: black;
+  text-decoration: none;
+}
+main #contact a:hover {
+  border-bottom: 10px dashed black;
+}
+
+iframe, object, embed {
+  max-width: 90%;
+}
+
+@media (max-width: 400px) {
+  main #price .price-table {
+    width: 70%;
+  }
+}
