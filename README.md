@@ -5,14 +5,10 @@
 <ul>
 <li>Html5</li>
 <li>Css3</li>
-<li>Scss</li>
 </ul>
-<h2>Where to find the project...</h2>
+<h2>Demo</h2>
 <p>
-Click <a href="https://s.codepen.io/vinniezappa/full/KeWBKG/VGkWNwKzgXLA" target="_blank"> here</a>
-or in the image below <br/><br/>
-<a href="https://s.codepen.io/vinniezappa/full/KeWBKG/VGkWNwKzgXLA" target="_blank">
-<img src="https://www.dropbox.com/s/x9dexqpsrvkn2ob/14-product--landing-page.jpg?raw=1" target="_blank">
+<a href="https://marcomaz.github.io/FCC-Responsive-Web-Design-Projects---Build-a-Product-Landing-Page/" target="_blank">Link</a>
 </a>
 </p>
 <h2>User Stories</h2>
